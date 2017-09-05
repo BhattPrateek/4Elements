@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Navbar from './Navbar.jsx';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -8,8 +8,10 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <div>
-        <h1>Header is Here!</h1>
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          <h1>4 Elements</h1>
+        </div>
       </div>
     );
   }
