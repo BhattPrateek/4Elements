@@ -1,0 +1,32 @@
+{
+  "name": "4 ELements Club Page",
+  "version": "1.0.0",
+  "description": "4 ELements CLub Page",
+  "main": "App.jsx",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhattPrateek/4Elements.git"
+  },
+  "author": "Prateek Bhatt",
+  "homepage": "https://github.com/BhattPrateek/4Elements.git#readme"
+}
