@@ -17,7 +17,6 @@ export default class Layout extends React.Component {
         <Header/>
         <Navbar/>
         <Body/>
-        <Footer/>
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from 'jquery';
 
 
 export default class Body extends React.Component {
@@ -6,11 +7,16 @@ export default class Body extends React.Component {
     super(props);
     this.state = {test: 'foo'};
   }
+  
+  componentDidMount() {
+  }
+  
   render() {
     return (
       <div>
-        <h1>Body is Here!</h1>
       </div>
+
+   
     );
   }
 }

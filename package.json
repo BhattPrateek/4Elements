@@ -1,5 +1,5 @@
 {
-  "name": "4 ELements Club Page",
+  "name": "4elementsclubpage",
   "version": "1.0.0",
   "description": "4 ELements CLub Page",
   "main": "App.jsx",
@@ -8,9 +8,12 @@
     "babel-loader": "^7.1.2",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.10",
     "morgan": "^1.8.2",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "slick-carousel": "^1.7.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
